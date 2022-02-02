@@ -1,11 +1,12 @@
 main {
   background-color: whitesmoke;
   display: grid;
-  grid-template-columns: 20% 60% 20%;
+  grid-template-columns: 40% 20% 40%;
   grid-template-rows: repeat(4, 500px);
   width: 100%;
 }
 footer{
+    color: white;
     background-color: black;
 }
 img {
