@@ -1,0 +1,45 @@
+main {
+  background-color: whitesmoke;
+  display: grid;
+  grid-template-columns: 20% 60% 20%;
+  grid-template-rows: repeat(4, 500px);
+  width: 100%;
+}
+footer{
+    background-color: black;
+}
+img {
+  height: 100px;
+  width: auto;
+}
+iframe {
+  height: 100px;
+  width: auto;
+  grid-column: 2;
+}
+figcaption {
+  font-weight: bold;
+  font-style: italic;
+  padding: 2%;
+  text-align: center;
+}
+figure {
+  background-color: rgb(243, 243, 214);
+  width: 42%;
+}
+span {
+  font-weight: normal;
+}
+
+figure:first-of-type {
+  grid-column: 2;
+}
+figure:first-of-type(2) {
+  grid-column: 2;
+}
+figure:first-of-type(3) {
+  grid-column: 2;
+}
+figure:first-of-type(4) {
+  grid-column: 2;
+}
